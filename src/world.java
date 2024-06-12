@@ -1,6 +1,6 @@
 public class world {
     static void myStaticMethod(){
-        System.out.println("hello my name is Vivek ");
+        System.out.println("hello my name isadsfasd Vivek ");
     }
     static void myPublicMethod(){
         System.out.println("i am 19 years old");
