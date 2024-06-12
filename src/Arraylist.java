@@ -120,15 +120,5 @@ public class Arraylist {
         t1.add("hexaclone");
         System.out.println(t.getLast());
 
-
-
-
-
-
-
-
-
-
-
     }
 }
