@@ -1,4 +1,4 @@
-public class hashmap {
+public class oops {
     public static void main(String[] args) {
         int[] numbers = new int[5];
         String[] names = new String[5];
@@ -7,19 +7,13 @@ public class hashmap {
         Student[] students = new Student[5];
         //Student gorish;
         Student gorish = new Student();
-        gorish.rno =2;
-        gorish.name="Gorish Mahajan";
         gorish.marks = 92;
         System.out.println(gorish.rno);
         System.out.println(gorish.name);
         System.out.println(gorish.marks);
-
+      }
     }
-
-
-    }
-
-        class Student {
+            class Student {
             int rno;
             String name;
             float marks;
