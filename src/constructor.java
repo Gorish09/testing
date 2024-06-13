@@ -5,7 +5,7 @@ public class constructor {
     }
 
     public static void main(String[] args) {
-        constructor myobj =new constructor();
+        constructor myobj = new constructor();
         System.out.println(myobj.x);
     }
 }

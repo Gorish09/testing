@@ -1,11 +1,11 @@
 public class string_methods {
     public static void main(String[] args) {
-        String name = "    gorish   ";
+        String name  = "    gorish   ";
 
-        int value = name.length();
+        int value  =  name.length();
         System.out.println(value);
 
-        String a = name.toLowerCase();
+        String a  =  name.toLowerCase();
         System.out.println(a);
 
         String a1 = name.toUpperCase();
