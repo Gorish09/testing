@@ -12,10 +12,23 @@ public class wrappersExamples {
 
 //        final int bonus = 2;
 //        bonus = 3;
+
+        final A gorish = new A("Gorish Mahajan");
+        gorish.name = "other name";
+
     }
      static void swap(Integer a ,Integer b){
         int temp = a;
         a = b;
         b = temp;
     }
+
 }
+ class A {
+    final int num = 10;
+    String name;
+
+    public A(String name){
+        this.name = name;
+    }
+ }
