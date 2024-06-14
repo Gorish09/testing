@@ -1,3 +1,5 @@
+package math.math;
+
 public class math_copysign {
     public static void main(String[] args) {
         System.out.println(Math.copySign(-2.0,33));

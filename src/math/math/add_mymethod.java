@@ -1,3 +1,5 @@
+package math.math;
+
 public class add_mymethod {
     static int mymethod(int x, int y){
         return x+y;

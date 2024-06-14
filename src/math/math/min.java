@@ -1,4 +1,4 @@
-package math;
+package math.math;
 
 public class min {
     public static void main(String[] args){
