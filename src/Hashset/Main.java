@@ -22,5 +22,9 @@ public class Main {
 
         name.size();
         System.out.println(name.size());
+
+        for (String i : name){
+            System.out.println(i);
+        }
     }
 }
