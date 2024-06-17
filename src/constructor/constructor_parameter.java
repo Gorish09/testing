@@ -1,6 +1,6 @@
-import java.awt.*;
+package constructor;
 
-    class Rectangle {
+class Rectangle {
         int length;
         int width;
 
