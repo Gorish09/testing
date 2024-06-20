@@ -9,7 +9,7 @@ public class date_time_formatter {
     public static void main(String[] args) {
         LocalDateTime clock = LocalDateTime.now();
         System.out.println(clock);
-        DateTimeFormatter time = DateTimeFormatter.ofPattern("dd-MMM-yyyy-E HH:mm:ss:ms");
+        DateTimeFormatter time = DateTimeFormatter.ofPattern("dd-MM-yyyy ");
 
         String date = clock.format(time);
         System.out.println(date);
