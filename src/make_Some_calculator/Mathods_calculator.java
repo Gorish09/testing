@@ -12,7 +12,7 @@ public class Mathods_calculator {
             char operator = number.next().charAt(0);
 
             Mathods_calculator methods = new Mathods_calculator();
-            if (!methods.isValidOperator(operator)) {
+            if (!methods.Operator(operator)) {
                 throw new IllegalArgumentException("Invalid operator");
             }
 
@@ -33,18 +33,18 @@ public class Mathods_calculator {
             System.out.println("Invalid input");
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
-        } catch (ArithmeticException e) {
+        } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         } finally {
             number.close();
         }
     }
-    public static boolean isValidOperator(char op) {
-        return op == '+' || op == '-' || op == '/' || op == '*' || op == '%' || op == '^';
+    public static boolean Operator(char operator) {
+        return operator == '+' || operator == '-' || operator == '/' || operator == '*' || operator == '%' || operator == '^';
     }
 
 
-    public static double calculate(char operator, double x, double y) {
+    public static double calculate(char operator, double x, double y) throws Exception {
         switch (operator) {
             case '+':
                 Mathods_calculator methods = new Mathods_calculator();
@@ -60,7 +60,7 @@ public class Mathods_calculator {
             case '^':
                 return power(x, y);
             default:
-                throw new IllegalArgumentException("Unknown operator: " + operator);
+                throw new Exception("Unknown operator: " + operator);
         }
     }
     public static double add(double x, double y) {
@@ -77,15 +77,15 @@ public class Mathods_calculator {
     }
 
 
-    public static double divide(double x, double y) {
+    public static double divide(double x, double y) throws Exception {
         if (y == 0) {
-            throw new ArithmeticException("Division by zero is not allowed.");
+            throw new Exception("Division by zero is not allowed");
         }
         return x / y;
     }
-    public static double modulus(double x, double y) {
+    public static double modulus(double x, double y) throws Exception {
         if (y == 0) {
-            throw new ArithmeticException("Modulus by zero is not allowed.");
+            throw new Exception("Modulus by zero is not allowed");
         }
         return x % y;
     }

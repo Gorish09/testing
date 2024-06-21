@@ -29,6 +29,6 @@ public class isEqual_method {
         }
     }
 
-    record User(String name, String occupation) {
+    public record User(String name, String occupation) {
     }
 }

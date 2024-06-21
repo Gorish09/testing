@@ -14,12 +14,12 @@ public class switch_calculator {
             return;
         }
 
-        System.out.println("Enter the first number");
+        System.out.println("Enter first number");
         double x = number.nextDouble();
 
         double y = 0;
         if (operator != '^') {
-            System.out.println("Enter the second number");
+            System.out.println("Enter second number");
             y = number.nextDouble();
         }
 
