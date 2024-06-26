@@ -5,12 +5,12 @@ class wildAnimal{
         System.out.println("eating...");
     }
 }
-class Tiger extends Animal{
+class Tiger extends Main{
     void run(){
         System.out.println("barking...");
     }
 }
-class loin extends Animal{
+class loin extends Main{
     void bark(){
         System.out.println("meowing...");
     }
