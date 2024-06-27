@@ -2,7 +2,7 @@
 <project version="4">
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="testing" options="--add-exports jdk.internal.le/jdk.internal.org.jline.utils=ALL-UNNAMED" />
+      <module name="testing" options="--add-exports jdk.internal.le/jdk.internal.org.jline.utils=ALL-UNNAMED --add-exports java.base/com.sun.crypto.provider=ALL-UNNAMED --add-exports jdk.internal.le/jdk.internal.org.jline.terminal.spi=ALL-UNNAMED" />
     </option>
   </component>
 </project>
